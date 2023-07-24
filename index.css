@@ -1,0 +1,55 @@
+html{
+    font-size: 14px;
+    font-family: ”微軟正黑體“, Arial, Helvetica, sans-serif;
+    background: #2C353E;
+}
+
+.box{
+    padding: 3rem 10%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+hr{
+    border: 1px solid #27BEFF;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+li{
+    color: #27BEFF;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+h1{
+    font-size: 2rem;
+    color: #27BEFF;
+    font-weight: 600;
+}
+
+h6{
+    font-size: 1rem;
+    color: #d5d5d5;
+    width: 100%;
+    text-align: center;
+    margin: .5rem;
+}
+
+p{
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 768px){
+    .box{
+        padding: 1rem;
+        width: 95%;
+    }
+}
